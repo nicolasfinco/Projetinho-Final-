@@ -4,65 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela de alunos</title>
+
+    <link rel="stylesheet" href="static/TABELAALUNOS.CSS">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <h1>Lista de alunos</h1>
-    <table class="tabela-aulas" >
-        <thead>
-            <tr>
-            <th>Nome</th>
-            <th>Email</th>
-            <th>Telefone</th>
-            <th>CPF</th>
-            </tr>
-        </thead>
-    <tbody>
-        <tr>
-            <td>Carlinhos Mais</td>
-            <td>carlinho@gmail.com</td>
-            <td>(11) 91234-5678</td>
-            <td>123.456.789-00</td>
-        </tr>
-
-
-        <tr>
-            <td>Maria Souza</td>
-            <td>Mariazinha</td>
-            <td>(21) 98765-4321</td>
-            <td>987.654.321-00</td>
-        </tr>
-        <tr>
-            <td>Ana Costa</td>
-            <td>Aninha Costa</td>
-            <td>(31) 99876-5432</td>
-            <td>456.789.123-00</td>
-        </tr>
-    </tbody>
-    </table>
-
-    <footer style="max-width: 100%;" class="rodape">
-    <div class="conteudo-rodape">
-        <div class="coluna-esquerda">
-            <h3 style="font-size: 30px;">ASCENDER</h3>
-            <p style="font-size: 15px;"><a href="#">SOBRE NÓS</a></p>
-            <p style="font-size: 15px;"><a href="#">VENHA FAZER PARTE</a></p>
-
-            <div class="redes-sociais">
-                <img src="img/TAG-removebg-preview.png" alt="Instagram">
-                <img src="img/TAG__1_-removebg-preview.png" alt="Facebook">
-                <img src="img/TAG__2_-removebg-preview.png" alt="Twitter/X">
-            </div>
-        </div>
-
-        <div class="coluna-direita">
-            <p style="font-size: 20px;">Rua das Acácias, 123</p>
-            <p style="font-size: 20px;">Bairro Jardim Primavera</p>
-            <p style="font-size: 20px;">São Paulo - SP</p>
-            <p style="font-size: 20px;">CEP: 01234-567</p>
-        </div>
+    <header>
+    <div class="logo">
+      <img src="img/logo-ascender.jpg" alt="Logo" style="height:40px;">
     </div>
-</footer>
+    <nav class="menu">
+      <a href="#">Sobre</a>
+      <a href="#">Painel</a>
+    </nav>
+    <div class="perfil"><img src="img/perfil.png" alt=""></div>
+  </header>
+
+  <!-- Conteúdo -->
+  <main>
+    <h1>TABELA DE ALUNOS</h1>
+    <table>
+      <tbody>
+        <tr>
+          <td>xxxxxx</td>
+          <td><button class="btn-editar">Editar</button></td>
+        </tr>
+        <tr>
+          <td>xxxxxx</td>
+          <td><button class="btn-editar">Editar</button></td>
+        </tr>
+        <tr>
+          <td>xxxxxx</td>
+          <td><button class="btn-editar">Editar</button></td>
+        </tr>
+        <tr>
+          <td>xxxxxx</td>
+          <td><button class="btn-editar">Editar</button></td>
+        </tr>
+        <tr>
+          <td>xxxxxx</td>
+          <td><button class="btn-editar">Editar</button></td>
+        </tr>
+        <tr>
+          <td>xxxxxx</td>
+          <td><button class="btn-editar">Editar</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="conteudo-rodape">
+      <div class="coluna-esquerda">
+        <h3>ASCENDER</h3>
+        <a href="#">SOBRE NÓS</a>
+        <a href="#">VENHA FAZER PARTE</a>
+        <a href="#">CONHEÇA NOSSOS RECURSOS</a>
+        <div class="redes-sociais">
+          <img src="instagram.png" alt="Instagram">
+          <img src="facebook.png" alt="Facebook">
+          <img src="twitter.png" alt="Twitter">
+        </div>
+      </div>
+      <div class="coluna-direita">
+        <p>Rua das Acácias, 123</p>
+        <p>Bairro Jardim Primavera</p>
+        <p>São Paulo - SP</p>
+        <p>CEP: 01234-567</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
-</html>

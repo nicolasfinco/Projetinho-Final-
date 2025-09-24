@@ -4,42 +4,46 @@
     <meta charset="UTF-8">
     <title>Dashboard - Aluno</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/DASHBOARDALUNO.CSS">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
 </head>
 <body>
-    <!-- Barra de navegação -->
-    <header>
-        <div class="logo">
-      <img src="img/logo-ascender.jpg" alt="Logo Ascender">
-    </div>
-        <div>
-            <h2>ASCENDER</h2>
-            <nav>
-                <a href="/sobre">Sobre</a>
-                <a href="/painel">Painel</a>
-                <a href="img/perfil.png">Perfil</a>
-            </nav>
-        </div>
-    </header>
+<!-- ===== HEADER ===== -->
+<header>
+  <!-- Logo -->
+  <div class="logo">
+    <img src="img/logo-ascender.jpg" alt="Logo Ascender">
+  </div>
 
-    <!-- Conteúdo principal -->
+  <!-- Navegação -->
+  <nav>
+    <a href="/sobre">Sobre</a>
+    <a href="/painel">Painel</a>
+  </nav>
+
+  <!-- Ícone de perfil -->
+  <div class="perfil">
+    <img src="img/perfil.png" alt="Perfil do usuário">
+  </div>
+</header>
+
     <main class="dashboard">
         <h1>Olá, aluno!</h1>
 
-        <!-- Seção de aulas -->
         <section>
-            <h2>Minhas aulas</h2>
+            <div class="caixa">
+                <h2>Minhas aulas</h2>
             <a href="/inscrever">+ Inscreva-se</a>
-
-            <!-- Exemplo de aula inscrita -->
             <div>
                 <h3>Spinning</h3>
                 <p>12/09 - 19h</p>
                 <a href="/cancelar/1">Excluir inscrição</a>
             </div>
+            </div>
         </section>
 
-        <!-- Botão editar -->
         <div>
             <a href="/editar_aluno">Editar aluno</a>
         </div>
@@ -53,9 +57,9 @@
             <p style="font-size: 15px;"><a href="#">VENHA FAZER PARTE</a></p>
 
             <div class="redes-sociais">
-                <img src="img/TAG-removebg-preview.png" alt="Instagram">
-                <img src="img/TAG__1_-removebg-preview.png" alt="Facebook">
-                <img src="img/TAG__2_-removebg-preview.png" alt="Twitter/X">
+                <img src="TAG-removebg-preview.png" alt="Instagram">
+                <img src="TAG__1_-removebg-preview.png" alt="Facebook">
+                <img src="TAG__2_-removebg-preview.png" alt="Twitter/X">
             </div>
         </div>
 
